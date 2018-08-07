@@ -1,0 +1,172 @@
+body {
+	margin: 0;
+	background-color: #eee;
+}
+p{
+	margin: 0;
+	text-align: left;
+	margin-left: 20px;
+}
+p a {	
+	color: #00838f;
+	text-decoration: none;
+	font-family: calibri;
+}
+h2 {
+	font-family: calibri;
+	font-size: 30px;
+}
+span {
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+small {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+small a {	
+	color: #00838f;
+	text-decoration: none;
+}
+label {
+	font-family: calibri;
+}
+
+.theme_default {
+	background-color: #eee;
+	border-color: white;
+}
+.logo {
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	line-height: 100px;
+	color: white;
+	font-family: calibri;
+	font-size: 25px;
+	margin-top: 20px;
+}
+.main_body {
+	max-width: 1300px;
+	background-color: #eeeeee;
+	margin: 0 auto;
+	line-height: 1.65;
+	padding: 10px;	
+	display: flex;
+	align-items: flex-start;
+}
+@media(min-width: 900px) {
+	.form_field {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+.column {
+	padding: 5px;
+	border-color: #999;
+	border-radius: 10px;
+	margin: 10px;
+}
+.form_field {
+	padding: 5px;
+	border-color: #999;
+	border-radius: 10px;
+	margin: 10px;
+}
+.input_field {
+	display: block;
+	text-align: left;
+	padding: 5px;
+	flex-basis: 48%;	
+}
+.input_field input {
+	line-height: 2.5;
+	padding-left: 15px;
+	font-family: calibri;
+	font-size: 20px;
+	border: 1px #ddd solid;
+	margin: 5px 0;	
+	outline: none;
+}
+.input_field_lg {
+	display: block;
+	text-align: left;
+	padding: 5px;
+	flex-basis: 100%;
+}
+.input_field_lg input {
+	flex: 1;
+}
+.input_field_grouped {
+	display: flex;	
+}
+.in_grouped {
+	width: 100%;
+	display: flex;
+	
+
+}
+.in_grouped input, .in_grouped select {
+	line-height: 2.5;
+	padding-left: 3.4%;
+	font-family: calibri;
+	font-size: 20px;
+	border: 1px #ddd solid;
+	margin: 5px 0;	
+	outline: none;
+}
+.in_grouped select {
+	flex: 1;
+}
+.in_grouped input {
+	flex: 5;
+}
+.phone_number input {
+	background-image: url(../img/phone.png) no-repeat;
+	line-height: 2.5;
+    background-position: right; 
+}
+.button {
+	width: 94%;
+    background-color: #0097a7;
+    border: none;
+    color: white;
+    padding: 5px 0 5px 6%;
+    text-align: left;
+    text-decoration: none;
+	display: inline-block;
+	font-family: calibri;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #00838f;
+}
+.column input:focus, .column select:focus {
+	border: 1px #009ABD solid;
+}
+.input_field_small {
+	flex: 1;
+}
+.input_field_medium {
+	flex: 2;
+}
+.column_1_blocks {
+	flex: 1;
+}
+.column_2_blocks {
+	flex: 1.5;
+}
+.column_3_blocks {
+	flex: 2;
+}
+.column_4_blocks {
+	flex: 2.5;
+}
+.column_5_blocks {
+	flex: 3;
+}
+.column_6_blocks {
+	flex: 3.5;
+}
